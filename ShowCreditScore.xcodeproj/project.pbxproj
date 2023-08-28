@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0279CC2A9C82B70089B414 /* CreditScoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0279CB2A9C82B70089B414 /* CreditScoreDetailView.swift */; };
+		1B0279CE2A9C85AC0089B414 /* CreditScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0279CD2A9C85AC0089B414 /* CreditScoreView.swift */; };
 		1B0867C72A99B638004FB825 /* ShowCreditScoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0867C62A99B638004FB825 /* ShowCreditScoreApp.swift */; };
 		1B0867C92A99B638004FB825 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0867C82A99B638004FB825 /* ContentView.swift */; };
 		1B0867CB2A99B639004FB825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0867CA2A99B639004FB825 /* Assets.xcassets */; };
@@ -14,6 +16,11 @@
 		1B0867D82A99B639004FB825 /* ShowCreditScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0867D72A99B639004FB825 /* ShowCreditScoreTests.swift */; };
 		1B0867E22A99B639004FB825 /* ShowCreditScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0867E12A99B639004FB825 /* ShowCreditScoreUITests.swift */; };
 		1B0867E42A99B639004FB825 /* ShowCreditScoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0867E32A99B639004FB825 /* ShowCreditScoreUITestsLaunchTests.swift */; };
+		1BECD8122A9A66A00060E9CC /* UserCreditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECD8112A9A66A00060E9CC /* UserCreditViewModel.swift */; };
+		1BECD8142A9A67810060E9CC /* UserCreditScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECD8132A9A67810060E9CC /* UserCreditScore.swift */; };
+		1BECD8172A9B08F10060E9CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECD8162A9B08F10060E9CC /* Constant.swift */; };
+		1BECD81A2A9BA2350060E9CC /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECD8192A9BA2350060E9CC /* Enumerations.swift */; };
+		1BECD81D2A9BA3960060E9CC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BECD81C2A9BA3960060E9CC /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B0279CB2A9C82B70089B414 /* CreditScoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreDetailView.swift; sourceTree = "<group>"; };
+		1B0279CD2A9C85AC0089B414 /* CreditScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreView.swift; sourceTree = "<group>"; };
 		1B0867C32A99B638004FB825 /* ShowCreditScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowCreditScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0867C62A99B638004FB825 /* ShowCreditScoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCreditScoreApp.swift; sourceTree = "<group>"; };
 		1B0867C82A99B638004FB825 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,11 @@
 		1B0867DD2A99B639004FB825 /* ShowCreditScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowCreditScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0867E12A99B639004FB825 /* ShowCreditScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCreditScoreUITests.swift; sourceTree = "<group>"; };
 		1B0867E32A99B639004FB825 /* ShowCreditScoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCreditScoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BECD8112A9A66A00060E9CC /* UserCreditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditViewModel.swift; sourceTree = "<group>"; };
+		1BECD8132A9A67810060E9CC /* UserCreditScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditScore.swift; sourceTree = "<group>"; };
+		1BECD8162A9B08F10060E9CC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1BECD8192A9BA2350060E9CC /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		1BECD81C2A9BA3960060E9CC /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,13 @@
 		1B0867C52A99B638004FB825 /* ShowCreditScore */ = {
 			isa = PBXGroup;
 			children = (
+				1BECD81B2A9BA3810060E9CC /* APIManager */,
+				1BECD8182A9BA2270060E9CC /* Extensions */,
+				1BECD8152A9B08C20060E9CC /* Constants */,
+				1BECD80E2A9A660A0060E9CC /* Model */,
+				1BECD80F2A9A66150060E9CC /* View */,
+				1BECD8102A9A66210060E9CC /* ViewModel */,
 				1B0867C62A99B638004FB825 /* ShowCreditScoreApp.swift */,
-				1B0867C82A99B638004FB825 /* ContentView.swift */,
 				1B0867CA2A99B639004FB825 /* Assets.xcassets */,
 				1B0867CC2A99B639004FB825 /* Preview Content */,
 			);
@@ -125,6 +144,56 @@
 				1B0867E32A99B639004FB825 /* ShowCreditScoreUITestsLaunchTests.swift */,
 			);
 			path = ShowCreditScoreUITests;
+			sourceTree = "<group>";
+		};
+		1BECD80E2A9A660A0060E9CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BECD8132A9A67810060E9CC /* UserCreditScore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BECD80F2A9A66150060E9CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B0867C82A99B638004FB825 /* ContentView.swift */,
+				1B0279CB2A9C82B70089B414 /* CreditScoreDetailView.swift */,
+				1B0279CD2A9C85AC0089B414 /* CreditScoreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BECD8102A9A66210060E9CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1BECD8112A9A66A00060E9CC /* UserCreditViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1BECD8152A9B08C20060E9CC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1BECD8162A9B08F10060E9CC /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1BECD8182A9BA2270060E9CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1BECD8192A9BA2350060E9CC /* Enumerations.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1BECD81B2A9BA3810060E9CC /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				1BECD81C2A9BA3960060E9CC /* APIManager.swift */,
+			);
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +326,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0279CE2A9C85AC0089B414 /* CreditScoreView.swift in Sources */,
+				1BECD8122A9A66A00060E9CC /* UserCreditViewModel.swift in Sources */,
 				1B0867C92A99B638004FB825 /* ContentView.swift in Sources */,
+				1BECD8172A9B08F10060E9CC /* Constant.swift in Sources */,
+				1B0279CC2A9C82B70089B414 /* CreditScoreDetailView.swift in Sources */,
+				1BECD8142A9A67810060E9CC /* UserCreditScore.swift in Sources */,
 				1B0867C72A99B638004FB825 /* ShowCreditScoreApp.swift in Sources */,
+				1BECD81A2A9BA2350060E9CC /* Enumerations.swift in Sources */,
+				1BECD81D2A9BA3960060E9CC /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +500,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +529,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
