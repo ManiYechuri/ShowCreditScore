@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct CreditScoreDetailView: View {
+    var userDetails : UserCreditScore
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        CardView()
+            
+        Text("\(userDetails.creditReportInfo.score)")
     }
 }
 
 struct CreditScoreDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        CreditScoreDetailView()
+        CreditScoreDetailView(userDetails: testCreditReport)
     }
 }

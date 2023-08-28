@@ -22,7 +22,7 @@ struct CreditScoreView: View {
                     Text("out of \(data.creditReportInfo.maxScoreValue)")
                         .fontWeight(.bold)
                         .font(.system(size: 20))
-                    NavigationLink("sec", destination: CreditScoreDetailView())
+                    NavigationLink("sec", destination: CreditScoreDetailView(userDetails: data))
                 }
             }
             .onAppear{

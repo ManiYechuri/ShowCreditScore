@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1B0279CC2A9C82B70089B414 /* CreditScoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0279CB2A9C82B70089B414 /* CreditScoreDetailView.swift */; };
 		1B0279CE2A9C85AC0089B414 /* CreditScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0279CD2A9C85AC0089B414 /* CreditScoreView.swift */; };
+		1B0279D02A9C9B730089B414 /* ModelCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0279CF2A9C9B730089B414 /* ModelCode.swift */; };
+		1B0279D22A9CAEF70089B414 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0279D12A9CAEF70089B414 /* CardView.swift */; };
+		1B0279D62A9CBE770089B414 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0279D52A9CBE770089B414 /* Launch Screen.storyboard */; };
 		1B0867C72A99B638004FB825 /* ShowCreditScoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0867C62A99B638004FB825 /* ShowCreditScoreApp.swift */; };
 		1B0867C92A99B638004FB825 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0867C82A99B638004FB825 /* ContentView.swift */; };
 		1B0867CB2A99B639004FB825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0867CA2A99B639004FB825 /* Assets.xcassets */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		1B0279CB2A9C82B70089B414 /* CreditScoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreDetailView.swift; sourceTree = "<group>"; };
 		1B0279CD2A9C85AC0089B414 /* CreditScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreView.swift; sourceTree = "<group>"; };
+		1B0279CF2A9C9B730089B414 /* ModelCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCode.swift; sourceTree = "<group>"; };
+		1B0279D12A9CAEF70089B414 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1B0279D52A9CBE770089B414 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		1B0867C32A99B638004FB825 /* ShowCreditScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowCreditScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0867C62A99B638004FB825 /* ShowCreditScoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCreditScoreApp.swift; sourceTree = "<group>"; };
 		1B0867C82A99B638004FB825 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +123,7 @@
 				1B0867C62A99B638004FB825 /* ShowCreditScoreApp.swift */,
 				1B0867CA2A99B639004FB825 /* Assets.xcassets */,
 				1B0867CC2A99B639004FB825 /* Preview Content */,
+				1B0279D52A9CBE770089B414 /* Launch Screen.storyboard */,
 			);
 			path = ShowCreditScore;
 			sourceTree = "<group>";
@@ -160,6 +167,7 @@
 				1B0867C82A99B638004FB825 /* ContentView.swift */,
 				1B0279CB2A9C82B70089B414 /* CreditScoreDetailView.swift */,
 				1B0279CD2A9C85AC0089B414 /* CreditScoreView.swift */,
+				1B0279D12A9CAEF70089B414 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				1BECD8112A9A66A00060E9CC /* UserCreditViewModel.swift */,
+				1B0279CF2A9C9B730089B414 /* ModelCode.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -302,6 +311,7 @@
 			files = (
 				1B0867CE2A99B639004FB825 /* Preview Assets.xcassets in Resources */,
 				1B0867CB2A99B639004FB825 /* Assets.xcassets in Resources */,
+				1B0279D62A9CBE770089B414 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,10 +340,12 @@
 				1BECD8122A9A66A00060E9CC /* UserCreditViewModel.swift in Sources */,
 				1B0867C92A99B638004FB825 /* ContentView.swift in Sources */,
 				1BECD8172A9B08F10060E9CC /* Constant.swift in Sources */,
+				1B0279D02A9C9B730089B414 /* ModelCode.swift in Sources */,
 				1B0279CC2A9C82B70089B414 /* CreditScoreDetailView.swift in Sources */,
 				1BECD8142A9A67810060E9CC /* UserCreditScore.swift in Sources */,
 				1B0867C72A99B638004FB825 /* ShowCreditScoreApp.swift in Sources */,
 				1BECD81A2A9BA2350060E9CC /* Enumerations.swift in Sources */,
+				1B0279D22A9CAEF70089B414 /* CardView.swift in Sources */,
 				1BECD81D2A9BA3960060E9CC /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,8 +510,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -527,8 +539,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
